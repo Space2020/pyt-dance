@@ -8,14 +8,37 @@ html{
   font-size: 16px;
 }
 
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
 .box{
-  min-width: 25rem;
-  max-height: 20rem;
+  /*max-height: 80%;
+  min-width: 35%;*/
   top: 6.25rem;
-  padding-bottom: 5rem;
   color: rgb(255,255,255);
   position: absolute;
 }
+
+.container{
+  padding: 0;
+}
+
+/*.row{
+  margin: 0;
+  padding: 0;
+}
+
+.col-md-5{
+  margin: 0;
+  padding: 0;
+}
+
+.col-md-offset-7{
+  margin: 0;
+  padding: 0;
+}*/
 
 .box h2{
   font-family: 'Open Sans', sans-serif;
@@ -38,6 +61,7 @@ html{
   padding: 1.25rem 3rem;
   color: rgb(255,255,255);
   text-decoration: none;
+  padding-bottom: 5rem;
 }
 
 
@@ -151,12 +175,9 @@ html{
 
 .purple{
   background-color: rgba(120, 73, 225, 0.9);
-  max-height: 25rem;
+  width: 100%;
 }
 
-.col-md-4, .col-md-offset-8{
-  padding: 0;
-}
 
 
 /**********************************************************************************************************/
@@ -282,6 +303,7 @@ padding-bottom: 5rem;
   .box{
     top: 17.5rem;
     padding-bottom: 1.875rem;
+    width: 100%;
   }
 
   .social-media i{
