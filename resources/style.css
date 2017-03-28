@@ -8,37 +8,25 @@ html{
   font-size: 16px;
 }
 
-body, html{
+html, body{
   margin: 0;
   padding: 0;
 }
 
 .box{
-  /*max-height: 80%;
-  min-width: 35%;*/
+  max-height: 80%;
+  min-width: 35%;
   top: 6.25rem;
   color: rgb(255,255,255);
-  position: absolute;
+  position: relative;
 }
 
-.container{
-  padding: 0;
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
 }
 
-/*.row{
-  margin: 0;
-  padding: 0;
-}
 
-.col-md-5{
-  margin: 0;
-  padding: 0;
-}
-
-.col-md-offset-7{
-  margin: 0;
-  padding: 0;
-}*/
 
 .box h2{
   font-family: 'Open Sans', sans-serif;
@@ -175,7 +163,6 @@ body, html{
 
 .purple{
   background-color: rgba(120, 73, 225, 0.9);
-  width: 100%;
 }
 
 
@@ -196,7 +183,7 @@ body, html{
 
 .pink{
   background-color: rgba(173, 74, 226, 0.9);
-  max-height: 25rem;
+  /*max-height: 25rem;*/
 }
 
 
@@ -301,7 +288,7 @@ padding-bottom: 5rem;
   }
 
   .box{
-    top: 17.5rem;
+    top: 17rem;
     padding-bottom: 1.875rem;
     width: 100%;
   }
@@ -329,9 +316,9 @@ padding-bottom: 5rem;
   .dancers p{
     max-width: 31.25rem;
   }
+}
 
-
-    @media only screen and (max-width: 613px) {
+  @media only screen and (max-width: 613px) {
 
       .dance-logo img{
         padding-top: 0.3rem;
@@ -352,3 +339,29 @@ padding-bottom: 5rem;
         padding: .5rem;
       }
     }
+
+
+
+/**************************************************************************************************/
+
+
+.contain{
+  background-image: url('./pyt_dance_studio_resources/faculty-photo.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40.25rem;
+  margin-top: -20px;
+}
+
+
+.faculty-photo h1{
+  text-align: right;
+  width: 20rem;
+}
+
+.faculty-photo p{
+  text-align: right;
+  width: 20rem;
+
+}
