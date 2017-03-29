@@ -41,6 +41,27 @@ html, body{
   padding: 1.25rem 3rem 0;
 }
 
+.navigation a:link{
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:hover{
+  color: #f5a623;
+  text-decoration: none;
+}
+
+
+.navigation a:active{
+  color: #8954ff;
+  text-decoration: none;
+}
+
 .box a{
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -80,6 +101,10 @@ html, body{
   align-items: baseline;
   background-color: black;
   height: 3.875rem;
+}
+
+.navigation{
+  padding-right: 3.875rem;
 }
 
 .navigation li{
@@ -352,17 +377,18 @@ padding-bottom: 5rem;
 
 
 
+
 /**************************************************************************************************/
 
+/* Faculty Page */
 
 .faculty-photo{
   background-image: url('./pyt_dance_studio_resources/faculty-photo.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 40.25rem;
+  height: 31.25rem;
   border-bottom: 8px solid #8954ff;
-  margin-top: -20px;
 }
 
 
@@ -390,6 +416,11 @@ padding-bottom: 5rem;
 
 .faculty-pic{
   padding-top: 5.625rem;
+  max-width: 16.875rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 0 auto;
 }
 
 .individual-members h3{
@@ -405,8 +436,42 @@ padding-bottom: 5rem;
 
 .individual-members p{
   text-align: center;
+  line-height: 1.5;
 }
 
-.individual-members .container{
-  padding: 0 7.5rem;
+.individual-members{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 7.5rem 6.25rem 7.5rem;
+  justify-content: center;
 }
+
+.large-padding{
+  padding-bottom: 7rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .individual-members h3{
+    font-size: 1.5rem;
+}
+
+  .individual-members h4{
+    font-size: 1rem;
+  }
+
+  .individual-members p{
+    font-size: 0.875rem;
+    line-height: 1.7;
+  }
+
+  .individual-members{
+    padding-bottom: 0.6875rem;
+  }
+}
+
+
+/*****************************************************************************************************************/
+
+/* Classes Page*/
