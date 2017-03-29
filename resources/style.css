@@ -26,8 +26,6 @@ html, body{
   padding-right: 0;
 }
 
-
-
 .box h2{
   font-family: 'Open Sans', sans-serif;
   font-size: 2.25rem;
@@ -102,6 +100,7 @@ html, body{
   background-repeat: no-repeat;
   text-align: center;
   color: rgb(255,255,255);
+  margin-top: -20px;
 }
 
 
@@ -165,6 +164,10 @@ html, body{
   background-color: rgba(120, 73, 225, 0.9);
 }
 
+.graffiti .row{
+  margin-right: 15px;
+}
+
 
 
 /**********************************************************************************************************/
@@ -186,6 +189,9 @@ html, body{
   /*max-height: 25rem;*/
 }
 
+.fire .row{
+  margin-right: 15px;
+}
 
 
 
@@ -202,6 +208,10 @@ html, body{
   background-size: cover;
   background-repeat: no-repeat;
   height: 31.25rem;
+}
+
+.jump .row{
+  margin-right: 15px;
 }
 
 
@@ -345,23 +355,58 @@ padding-bottom: 5rem;
 /**************************************************************************************************/
 
 
-.contain{
+.faculty-photo{
   background-image: url('./pyt_dance_studio_resources/faculty-photo.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 40.25rem;
+  border-bottom: 8px solid #8954ff;
   margin-top: -20px;
 }
 
 
 .faculty-photo h1{
-  text-align: right;
-  width: 20rem;
+  text-align: center;
+  color: #8954ff;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 10rem;
+  padding-bottom: 1.5rem;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 .faculty-photo p{
-  text-align: right;
-  width: 20rem;
+  text-align: center;
+  color: #999;
+  font-size: 1rem;
+  padding: 1rem auto;
+}
 
+.faculty-photo .row{
+  margin-right: auto;
+}
+
+.faculty-pic{
+  padding-top: 5.625rem;
+}
+
+.individual-members h3{
+  text-align: center;
+  color: #8954ff;
+  font-weight: bold;
+}
+
+.individual-members h4{
+  text-align: center;
+  font-weight: bold;
+}
+
+.individual-members p{
+  text-align: center;
+}
+
+.individual-members .container{
+  padding: 0 7.5rem;
 }
