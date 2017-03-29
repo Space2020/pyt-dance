@@ -477,6 +477,36 @@ padding-bottom: 5rem;
 /* Classes Page*/
 
 
+.classes-box{
+  background-image: url('./pyt_dance_studio_resources/classes-photo.png');
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 31.25rem;
+  border-bottom: 8px solid #8954ff;
+}
+
+.classes-content{
+  text-align: center;
+  padding: 8rem 6rem;
+  vertical-align: middle;
+}
+
+.classes-content h1{
+  color: rgba(174, 75, 227, 0.9);
+  font-weight: bold;
+  font-size: 3.125rem;
+  padding-bottom: 2rem;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.classes-content p{
+  padding-left: auto;
+  padding-right: auto;
+}
+
+
 .popping-schedule{
   display: flex;
   flex-wrap: wrap;
@@ -497,13 +527,6 @@ padding-bottom: 5rem;
   font-weight: bold;
 }
 
-.mon-thur{
-  padding-top: 1.125rem;
-}
-
-.sat{
-  padding-top: 1.125rem;
-}
 
 .popping-schedule h5{
   font-size: 1rem;
@@ -519,3 +542,63 @@ padding-bottom: 5rem;
 .popping-box{
   max-width: 25rem;
 }
+
+.mon-thur{
+  padding-top: 1.125rem;
+}
+
+.sat{
+  padding-top: 1.125rem;
+}
+
+
+@media only screen and (max-width: 933px) {
+
+  .popping-schedule{
+    justify-content: space-around;
+    }
+
+  .popping-box{
+    width: 18.75rem;
+    padding-right: 1rem;
+  }
+
+  .popping-schedule p{
+    padding-bottom: 2.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .popping-schedule h5{
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+
+  .popping-schedule{
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+  .popping-box{
+    width: 17.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .popping-schedule h4{
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .popping-schedule h5{
+    font-size: 0.875rem;
+    line-height: 1.7rem;
+    padding-bottom: 0.625rem;
+  }
+
+  .popping-schedule p{
+    font-size: 0.875rem;
+    line-height: 1.7rem;
+  }
