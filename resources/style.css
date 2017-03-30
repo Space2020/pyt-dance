@@ -642,3 +642,75 @@ padding-bottom: 5rem;
   color: #666666;
   max-width: 50%;
 }
+
+.dance-style .container-fluid{
+  padding: 4% 19%;
+}
+
+.dance-style h3{
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #794ae2;
+  text-align: center;
+}
+
+  .dance-style p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #666666;
+    text-align: center;
+  }
+
+  .dance-style img{
+    padding: 0 auto;
+    margin: auto;
+    max-height: 9.75rem;
+  }
+
+  .dance-style .row{
+    text-align: center;
+  }
+
+  .map{
+    background-image: url('./pyt_dance_studio_resources/map.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 31.25rem;
+  }
+
+.map p{
+  line-height: 0.1;
+}
+
+@media only screen and (max-width: 989px) {
+
+.dance-style img{
+  padding: auto;
+  margin: auto;
+  float: none;
+  display: block;
+}
+
+.space{
+  padding: 0 auto;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+.dance-style img{
+  padding: auto;
+  margin: auto;
+  float: none;
+  display: block;
+}
+
+  .dance-style{
+    text-align: center;
+  }
+
+  .space{
+    padding: 0 auto;
+  }
+}
