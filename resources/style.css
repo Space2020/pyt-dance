@@ -14,10 +14,18 @@ html, body{
 }
 
 .box{
-  /*max-height: 80%;
-  min-width: 35%;*/
   top: 6.25rem;
   color: rgb(255,255,255);
+  padding-left: 3rem;
+  padding-bottom: 4rem;
+  max-width: 40%;
+  max-height: 95%;
+}
+
+.flex{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .container-fluid{
@@ -181,9 +189,7 @@ html, body{
   background-repeat: no-repeat;
   background-size: cover;
   height: 31.25rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+
 }
 
 .purple{
@@ -326,7 +332,7 @@ padding-bottom: 5rem;
   .box{
     top: 17rem;
     padding-bottom: 1.875rem;
-    width: 100%;
+    max-width: 100%;
   }
 
   .social-media i{
@@ -373,6 +379,12 @@ padding-bottom: 5rem;
 
       .navigation li{
         padding: .5rem;
+      }
+
+      .box{
+        top: 17rem;
+        padding-bottom: 1.875rem;
+        max-width: 100%;
       }
     }
 
@@ -728,3 +740,12 @@ padding-bottom: 5rem;
     padding: 0;
   }
 }
+
+
+@media only screen and (max-width: 613px) {
+
+  .map .box{
+    top: 17rem;
+    padding: 0.5rem;
+    max-width: 100%;
+  }
