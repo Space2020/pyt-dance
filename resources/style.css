@@ -14,11 +14,10 @@ html, body{
 }
 
 .box{
-  max-height: 80%;
-  min-width: 35%;
+  /*max-height: 80%;
+  min-width: 35%;*/
   top: 6.25rem;
   color: rgb(255,255,255);
-  position: relative;
 }
 
 .container-fluid{
@@ -182,8 +181,10 @@ html, body{
   background-repeat: no-repeat;
   background-size: cover;
   height: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-
 
 .purple{
   background-color: rgba(120, 73, 225, 0.9);
@@ -472,6 +473,8 @@ padding-bottom: 5rem;
 }
 
 
+
+
 /*****************************************************************************************************************/
 
 /* Classes Page*/
@@ -479,7 +482,7 @@ padding-bottom: 5rem;
 
 .classes-box{
   background-image: url('./pyt_dance_studio_resources/classes-photo.png');
-  background-position: left;
+  background-position: top left;
   background-size: contain;
   background-repeat: no-repeat;
   height: 31.25rem;
@@ -504,6 +507,7 @@ padding-bottom: 5rem;
 .classes-content p{
   padding-left: auto;
   padding-right: auto;
+  font-size: 1.3rem;
 }
 
 
@@ -602,3 +606,39 @@ padding-bottom: 5rem;
     font-size: 0.875rem;
     line-height: 1.7rem;
   }
+}
+
+/********************************************************************************************************************/
+
+/* About Page */
+
+.about-content{
+  background-image: url('./pyt_dance_studio_resources/workout-photo.png');
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 31.25rem;
+  border-bottom: 8px solid #8954ff;
+}
+
+.about-content .row{
+  margin-right: 15px;
+}
+
+.about-content h1{
+  padding-top: 5rem;
+  text-align: center;
+  color: #794ae2;
+  font-weight: bold;
+  font-size: 3.125rem;
+  text-transform: uppercase;
+  padding-bottom: 4rem;
+  max-width: 50%;
+}
+
+.about-content p{
+  text-align: center;
+  line-height: 1.7;
+  color: #666666;
+  max-width: 50%;
+}
