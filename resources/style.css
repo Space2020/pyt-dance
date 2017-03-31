@@ -97,7 +97,6 @@ html, body{
 
 .navigation li a{
   font-family: 'Open Sans', sans-serif;
-  /*font-size: 1rem;*/
   font-weight: bold;
   color: rgb(255,255,255);
 }
@@ -133,7 +132,6 @@ html, body{
   background-repeat: no-repeat;
   text-align: center;
   color: rgb(255,255,255);
-  margin-top: -20px;
 }
 
 
@@ -177,7 +175,12 @@ html, body{
 .dancers .btn a{
   color: rgb(255,255,255);
   text-decoration: none;
+  }
+
+.btn:hover{
+  box-shadow: 10px 10px 10px #000;
 }
+
 
 /**********************************************************************************************************/
 
@@ -358,6 +361,10 @@ padding-bottom: 5rem;
   .dancers p{
     max-width: 31.25rem;
   }
+
+  .navigation{
+    padding-right: 2.5rem;
+  }
 }
 
   @media only screen and (max-width: 613px) {
@@ -377,9 +384,9 @@ padding-bottom: 5rem;
         max-height: 2.5rem;
       }
 
-      .navigation li{
+      /*.navigation li{
         padding: .3rem;
-      }
+      }*/
 
       .box{
         top: 17rem;
