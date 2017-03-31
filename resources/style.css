@@ -587,6 +587,19 @@ padding-bottom: 5rem;
   .popping-schedule h5{
     font-size: 1.125rem;
   }
+
+  .classes-content h1{
+    font-size: 1.25rem;
+  }
+
+  .classes-content p{
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .sat{
+    padding-top: 0;
+  }
 }
 
 @media only screen and (max-width: 736px) {
@@ -738,6 +751,34 @@ padding-bottom: 5rem;
   max-width: 100%;
 }
 
+.about-content h1{
+  font-size: 1.125rem;
+}
+
+.about-content p{
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.place-left{
+  top: 5rem;
+}
+
+.dance-style h3{
+  font-size: 1.75rem;
+}
+
+  .dance-style p{
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .dance-style img{
+    padding-top: 1.875rem;
+    max-height: 6.25rem;
+  }
+
+}
 
 @media only screen and (max-width: 767px) {
 
@@ -755,6 +796,8 @@ padding-bottom: 5rem;
   .center-img{
     padding: 0;
   }
+
+
 }
 
 
