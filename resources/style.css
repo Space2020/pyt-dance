@@ -97,7 +97,7 @@ html, body{
 
 .navigation li a{
   font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
+  /*font-size: 1rem;*/
   font-weight: bold;
   color: rgb(255,255,255);
 }
@@ -117,6 +117,7 @@ html, body{
 .navigation li{
   display: inline;
   padding: 1rem;
+  font-size: 1rem;
 }
 
 
@@ -377,7 +378,7 @@ padding-bottom: 5rem;
       }
 
       .navigation li{
-        padding: .5rem;
+        padding: .3rem;
       }
 
       .box{
@@ -594,11 +595,14 @@ padding-bottom: 5rem;
 
   .classes-content p{
     font-size: 1rem;
-    line-height: 1.6;
   }
 
   .sat{
     padding-top: 0;
+  }
+
+  .classes-content{
+    padding: 2rem 1rem;
   }
 }
 
